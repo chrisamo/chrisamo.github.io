@@ -15,6 +15,7 @@ font-family: 'Open Sans', sans-serif;
 
 h1 {
     font-family: 'Playfair Display', serif;
+    color: #002FA7;
     font-size: 80px;
     line-height: 70px;
 }
@@ -24,7 +25,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #002FA7;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -36,7 +37,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #002FA7;
     top: 9px;
 }
 
@@ -105,7 +106,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #425BB5;
+    border: 2px solid #002FA7;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -226,14 +227,14 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: #fff;
     font-size: 16px;
     font-weight: bold;
 }
 
 .bg-nav {
-    background: #fff;
-    border-bottom: 1px solid #f3f3f3
+    background: #000000;
+    border-bottom: 1px solid #000000
 }
 
 .bg-nav ul {
@@ -241,17 +242,17 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #425BB5;
+    color: #002FA7;
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: #002FA7;
 }
 
 
@@ -287,7 +288,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #002FA7;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -313,7 +314,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: #002FA7;
     font-size: 16px;
     font-weight: bold
 }
@@ -353,11 +354,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: #002FA7;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 #002FA7;
 }
 
 .timeline-event-copy {
@@ -392,7 +393,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
+    background-color: #002FA7;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -414,7 +415,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    box-shadow: inset 0 0 0 0em #002FA7;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -454,7 +455,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #002FA7;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -477,7 +478,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #002FA7;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -512,7 +513,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #002FA7;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -690,11 +691,11 @@ fieldset {
 }
 
 #success p {
-    color: #425BB5;
+    color: #002FA7;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #425BB5;
+    border: 2px solid #002FA7;
     margin-top: 10px;
 }
 
@@ -708,7 +709,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: #002FA7;
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -737,7 +738,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: #002FA7;
 }
 
 
